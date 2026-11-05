@@ -3,7 +3,7 @@ package com.aq.jaqmod.item;
 import com.aq.jaqmod.AQDMod;
 
 import net.minecraft.core.component.DataComponents;
-
+import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
@@ -11,6 +11,7 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.component.Consumable;
 import net.minecraft.world.item.component.Consumables;
@@ -34,6 +35,11 @@ public class AQPie {
     public static void RegisterModItems() {
 
         Registry.register(BuiltInRegistries.ITEM, AQDMod.id("aq_pie"), AQ_Pie);
+
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.FOOD_AND_DRINKS).register( output-> {
+            output.prepend(AQ_Pie);
+        });
+        
     }
 
 }

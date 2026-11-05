@@ -21,6 +21,7 @@ public class AQDMod implements ModInitializer {
 	public void onInitialize() {
 
 		AQPie.RegisterModItems();
+		
 
 		LOGGER.info("AQMOD RAN SUCCESSFULLY!");
 		
