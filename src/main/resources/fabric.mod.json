@@ -3,15 +3,15 @@
 	"id": "aqd_mod",
 	"version": "${version}",
 	"name": "AQPie-Mod",
-	"description": "This mod adds a AQPie to Minecraft",
+	"description": "This mod adds a new food called AQPie to Minecraft",
 	"authors": [
 		"Me!"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/AQDelox/AQPie-Mod-MADE-BY-AQDELOX",
+		"sources": "https://github.com/AQDelox/AQPie-Mod-MADE-BY-AQDELOX"
 	},
-	"license": "CC0-1.0",
+	"license": "ARR",
 	"icon": "assets/aqd-mod/icon.png",
 	"environment": "*",
 	"entrypoints": {
