@@ -3,6 +3,6 @@
     "model": {
 
         "type": "minecraft:model", 
-        "model": "aqd-mod:item/aq_pie"
+        "model": "aqd_mod:item/aq_pie"
     }
 }

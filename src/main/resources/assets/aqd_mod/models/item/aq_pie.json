@@ -2,6 +2,6 @@
     "parent": "minecraft:item/generated", 
     "textures": {
 
-        "layer0": "aqd-mod:item/aq_pie"
+        "layer0": "aqd_mod:item/aq_pie"
     }
 }

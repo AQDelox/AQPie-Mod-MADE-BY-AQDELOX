@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "aqd-mod",
+	"id": "aqd_mod",
 	"version": "${version}",
 	"name": "AQPie-Mod",
 	"description": "This mod adds a AQPie to Minecraft",

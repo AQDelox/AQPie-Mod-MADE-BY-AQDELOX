@@ -9,8 +9,9 @@ import org.slf4j.LoggerFactory;
 
 import com.aq.jaqmod.item.AQPie;
 
+
 public class AQDMod implements ModInitializer {
-	public static final String MOD_ID = "aqd-mod";
+	public static final String MOD_ID = "aqd_mod";
 
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
@@ -21,6 +22,8 @@ public class AQDMod implements ModInitializer {
 	public void onInitialize() {
 
 		AQPie.RegisterModItems();
+
+	
 
 		
 
