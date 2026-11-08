@@ -12,7 +12,7 @@
 		"sources": "https://github.com/AQDelox/AQPie-Mod-MADE-BY-AQDELOX"
 	},
 	"license": "ARR",
-	"icon": "assets/aqd-mod/icon.png",
+	"icon": "assets/aqd_mod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [

@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "aqd_mod:aq_pie"
+    },
+    "title": {
+      "text": "AQDELOX's OP PIE!"
+    },
+    "description": {
+      "text": "You have eaten a really OP FOOD!"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:nether/root",
+  "criteria": {
+    "consumed_pie": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "aqd_mod:aq_pie"
+        }
+      }
+    }
+  }
+}
