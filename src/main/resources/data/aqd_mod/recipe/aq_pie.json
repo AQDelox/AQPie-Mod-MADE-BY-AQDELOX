@@ -1,8 +1,9 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    "minecraft:stick",
-    "minecraft:diamond"
+    "minecraft:emerald",
+    "minecraft:diamond",
+    "minecraft:apple"
   ],
   "result": "aqd_mod:aq_pie"
 }

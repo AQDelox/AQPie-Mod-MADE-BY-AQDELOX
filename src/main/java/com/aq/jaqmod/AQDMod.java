@@ -7,6 +7,7 @@ import net.minecraft.resources.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.aq.jaqmod.LootTable.LootTableModifier;
 import com.aq.jaqmod.item.AQPie;
 
 
@@ -22,6 +23,8 @@ public class AQDMod implements ModInitializer {
 	public void onInitialize() {
 
 		AQPie.RegisterModItems();
+
+		LootTableModifier.ModifyLootTables();
 
 	
 

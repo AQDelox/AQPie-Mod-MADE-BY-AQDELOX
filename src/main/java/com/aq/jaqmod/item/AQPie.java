@@ -21,7 +21,7 @@ public class AQPie {
 
     public static final ResourceKey<Item>  AQ_PIE_kEY = ResourceKey.create(Registries.ITEM, AQDMod.id("aq_pie"));
 
-    public static final Consumable REGEN_FOOD_CONSUMABLE_COMPONENT = Consumables.defaultFood().onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(MobEffects.REGENERATION, 8 * 30, 4), 1.0F)).build();
+    public static final Consumable REGEN_FOOD_CONSUMABLE_COMPONENT = Consumables.defaultFood().onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(MobEffects.INSTANT_HEALTH, 8 * 30, 4), 1.0F)).build();
 
     public static final FoodProperties REGEN_FOOD_COMPONENT = new FoodProperties.Builder().nutrition(8).saturationModifier(0.9F).alwaysEdible().build();
 
